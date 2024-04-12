@@ -1,14 +1,14 @@
 class Employee:
     def __init__(self):
-        self.name = "yash"
-        self.sapid = 500125397
+        self.name = "Aviral"
+        self.sapid = 500121824
         self.AC= self.activity_coordinator()
     def info(self):
         print(self.name, self.sapid)
         
     class activity_coordinator:
         def info(self):
-            print("i am activity coordinator of 8 semester")
+            print("Now I Become Death ")
             
 E1=Employee()
 E1.info()
@@ -26,11 +26,11 @@ class assistant_prof:
         print(f"My id is: {self.id}")
     class member:
         def show(self):
-            print("i am board member also")
+            print("Destroyer of the world")
             
 AP= assistant_prof.member()
 AP.show()
-AP1= assistant_prof("yash", 500125397)
+AP1= assistant_prof("Aviral", 500121824)
 AP1.show()
 AP2=AP1.member()
 AP2.show()
